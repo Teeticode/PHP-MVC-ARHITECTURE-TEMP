@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Home</title>
-    </head>
-    <body>
-        <h1>This is home view</h1>
-    </body>
-</html>
+<?php $this->view('includes/header'); ?>
+
+    <div class="container-fluid">
+        <h1><i class="fa fa-plus"></i>This is home view</h1>
+    </div>
+
+<?php $this->view('includes/footer'); ?>
+        
